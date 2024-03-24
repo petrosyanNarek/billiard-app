@@ -1,0 +1,43 @@
+.optionMenu {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.inputSelector {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.inputSelector::-webkit-color-swatch {
+    border-radius: 15px;
+    border: none;
+}
+
+.inputSelector::-moz-color-swatch {
+    border-radius: 15px;
+    border: none;
+}
+
+label {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
